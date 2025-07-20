@@ -201,15 +201,15 @@ Each pattern is detected by querying the fully updated state from PostgreSQL wit
 
 ## ScreenShots
 
-![Mechanism Y code](<img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/f082de88-85c9-49e0-b36e-76e7d497932c" />)
+<img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/f082de88-85c9-49e0-b36e-76e7d497932c" />
 
-![Mechanism X code](<img width="1920" height="930" alt="image" src="https://github.com/user-attachments/assets/22b4a750-1480-4467-a13a-e4a384aac3e6" />)
+<img width="1920" height="930" alt="image" src="https://github.com/user-attachments/assets/22b4a750-1480-4467-a13a-e4a384aac3e6" />
 
-![Mechanism X Job](<img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/4bdc3b4a-6c0e-44a4-9c32-a14dde2e5fbd" />)
+<img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/4bdc3b4a-6c0e-44a4-9c32-a14dde2e5fbd" />
 
-![Mechanism Y Job](<img width="1920" height="931" alt="image" src="https://github.com/user-attachments/assets/42fe34cd-5f3b-4b60-983f-6f6938028fb0" />)
+<img width="1920" height="931" alt="image" src="https://github.com/user-attachments/assets/42fe34cd-5f3b-4b60-983f-6f6938028fb0" />
 
-![AWS Postgres](<img width="1895" height="368" alt="image" src="https://github.com/user-attachments/assets/ef895879-3286-43ce-a568-1bc27e46779f" />)
+<img width="1895" height="368" alt="image" src="https://github.com/user-attachments/assets/ef895879-3286-43ce-a568-1bc27e46779f" />
 
 <img width="1920" height="512" alt="image" src="https://github.com/user-attachments/assets/a1e9caae-1cee-42ca-a770-9213971c3fe9" />
 <img width="1920" height="933" alt="image" src="https://github.com/user-attachments/assets/d63c6e97-e6f1-4ac4-9e42-b83e23c8bfce" />
