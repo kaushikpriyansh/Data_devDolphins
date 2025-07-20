@@ -23,6 +23,9 @@ The pipeline follows a decoupled, event-driven architecture. Mechanism X and Mec
     * `pk-transactions-temp`: Used for storing the offset tracker for Mechanism X and the checkpoint location for Mechanism Y.
 * **AWS RDS PostgreSQL (State Store)**: A persistent state management layer. It stores long-running aggregations needed for pattern detection, such as total transaction counts per merchant and detailed customer statistics. This ensures state is maintained correctly even if the streaming job restarts.
 
+<img width="977" height="1075" alt="image" src="https://github.com/user-attachments/assets/4f029c8f-deb8-412c-b5de-db3a673ce29a" />
+
+
 ---
 
 ##  Technology Stack
