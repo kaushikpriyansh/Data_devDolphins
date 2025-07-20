@@ -23,8 +23,6 @@ The pipeline follows a decoupled, event-driven architecture. Mechanism X and Mec
     * `pk-transactions-temp`: Used for storing the offset tracker for Mechanism X and the checkpoint location for Mechanism Y.
 * **AWS RDS PostgreSQL (State Store)**: A persistent state management layer. It stores long-running aggregations needed for pattern detection, such as total transaction counts per merchant and detailed customer statistics. This ensures state is maintained correctly even if the streaming job restarts.
 
-![Architecture Diagram](https://i.imgur.com/uRj0qM5.png)
-
 ---
 
 ##  Technology Stack
@@ -195,7 +193,7 @@ Each pattern is detected by querying the fully updated state from PostgreSQL wit
 
 ---
 
-## 📝 Assumptions
+##  Assumptions
 
 * **Ingestion Frequency**: The assignment's "every second" requirement for Mechanism X was interpreted as a near real-time feed. I have implemented this using a Databricks Job scheduled to run **every minute**, which is a more practical and cost-effective approach for a job-based scheduler.
 * **Data Source Simulation**: Instead of directly connecting to Google Drive in a loop (which can be unreliable), the source CSVs were first loaded into Databricks tables. Mechanism X then simulates the chunked feed from these stable tables, providing a more controlled and fault-tolerant ingestion process.
